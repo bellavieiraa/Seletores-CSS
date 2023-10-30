@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+P {
+    color: #f00;
+}
+
+main {
+    margin-top: 1rem;
+}
+
+.paragrafo {
+    border: 1px solid cyan;
+    color: #00f;
+    margin-top: 1rem;
+}
+
+#titulo {
+    color: #0f0;
+    margin-bottom: 1rem;
+}
+
+input[type=password]{
+    font-size: 3rem;
+}
+
+.login-form input{
+    font-size: 2rem;
+    color: #f00;
+}
+
+.login-form > input {
+    color: #0f0;
+    width: 10rem;
+}
+
+.cadastro-form input:nth-of-type(2){
+    border: 5px solid #00f;
+}
+
+    
